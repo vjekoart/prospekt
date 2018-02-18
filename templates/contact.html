@@ -1,0 +1,30 @@
+<template>
+    <partial src="header"></partial>
+    <main>
+        <h2>Contact</h2>
+        <section>
+            <form>
+                <fieldset>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" />
+                </fieldset>
+                <fieldset>
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" />
+                </fieldset>
+                <fieldset>
+                    <label for="message">Message</label>
+                    <textarea id="message"></textarea>
+                </fieldset>
+                <footer>
+                    <button type="submit">Send an inquiry</button>
+                </footer>
+            </form>
+        </section>
+    </main>
+    <partial src="footer"></partial>
+</template>
+
+<script>
+    Log('Template contact.html successfully loaded.')
+</script>
