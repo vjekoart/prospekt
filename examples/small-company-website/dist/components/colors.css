@@ -1,0 +1,10 @@
+:root
+{
+    --c-white: rgba(255, 255, 255, 1);
+    --c-black: rgba(33, 33, 33, 1);
+    --c-black-transparent: rgba(33, 33, 33, 0.125);
+    --c-black-alpha: rgba(33, 33, 33, 0.75);
+    --c-blue: rgba(0, 0, 200, 1);
+    --c-blue-alpha: rgba(0, 0, 200, 0.75);
+    --c-blue-full: rgba(0, 0, 200, 1);
+}

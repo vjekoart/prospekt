@@ -1,0 +1,41 @@
+* {
+    background-color: var(--c-black-transparent);
+    box-shadow: 0 0 7px 0 var(--c-black-transparent) inset;
+}
+
+
+a,
+a:visited,
+button
+{
+    color: var(--c-blue);
+    text-decoration: none;
+}
+
+button
+{
+    font-family: sans-serif;
+    font-size: 0.875rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+button:hover
+{
+    box-shadow: 0 0 7px 0 var(--c-black-transparent) inset, 0 0 13px 0 var(--c-black-alpha);
+    cursor: pointer;
+}
+
+input,
+input:focus
+{
+    border-top: 2px solid var(--c-black-transparent);
+    border-bottom: 2px solid var(--c-blue);
+}
+
+input:focus,
+textarea:focus
+{
+    outline: none;
+}

@@ -1,0 +1,38 @@
+[explain]::after
+{
+    background-color: var(--c-blue);
+    border-radius: 0.75rem;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px 0 var(--c-black-transparent);
+    color: var(--c-white);
+    content: '!';
+    display: block;
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: bolder;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    padding: 0 0.5rem;
+    position: absolute;
+    right: -0.75rem;
+    text-align: center;
+    text-transform: none;
+    top: -0.75rem;
+    width: 1.5rem;
+}
+
+
+[explain]:hover::after,
+[explain]:focus::after
+{
+    background-color: var(--c-black);
+    border-radius: 2px;
+    content: attr(explain);
+    font-size: 0.875rem;
+    font-weight: normal;
+    height: auto;
+    max-width: 320px;
+    padding: 0.25rem 0.5rem;
+    text-align: left;
+    width: auto;
+}
